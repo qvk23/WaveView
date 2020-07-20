@@ -1,1 +1,2 @@
+include(":waveviewlibrary")
 include(":app")
