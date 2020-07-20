@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveView">
+        <attr name="wv_waveShape" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="square" value="1" />
+        </attr>
+        <attr name="wv_waveLengthRatio" format="float" />
+        <attr name="wv_waveWaterLevel" format="float" />
+        <attr name="wv_waveShiftRatio" format="float" />
+        <attr name="wv_amplitudeRatio" format="float" />
+        <attr name="wv_textColor" format="color"/>
+        <attr name="wv_textSize" format="dimension"/>
+        <attr name="wv_text" format="string"/>
+        <attr name="wv_frontColor" format="color" />
+        <attr name="wv_backgroundColor" format="color" />
+    </declare-styleable>
+</resources>

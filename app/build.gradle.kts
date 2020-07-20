@@ -31,6 +31,7 @@ dependencies {
     implementation(Libs.coreKtx)
     implementation(Libs.appCompat)
     implementation(Libs.constraintLayout)
+    implementation(project(mapOf("path" to ":waveviewlibrary")))
     testImplementation(TestLibs.junit)
     androidTestImplementation(TestLibs.extJunit)
     androidTestImplementation(TestLibs.espressoCore)
